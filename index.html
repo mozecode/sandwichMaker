@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<title>Sandwich Maker</title>
+</head>
+<body>
+
+	<h1>Sandwich Maker</h1>
+	<section id="bread-chooser">
+		<h2>Breads</h2>
+		<select>
+			<option value="wholeWheat"> Whole Wheat</option>
+			<option value="sourdough"> Sourdough</option>
+			<option value="rye"> Rye </option>
+			<option value="honeyOat"> Honey Oat </option>
+			<option value="pumpernickel"> Pumpernickel</option>
+		</select>
+	</section>
+
+	<section id="meat-chooser">
+		<h2>Meats</h2>
+		<input type="radio" id="turkey" value="turkey" name="turkey"> Turkey
+		<input type="radio" id="ham" value="ham" name="ham"> Ham
+		<input type="radio" name="lamb" value="lamb" id="lamb"> Lamb
+		<input type="radio" name="chicken" id="chicken" value="chicken"> Chicken
+		<input type="radio" name="bacon" id="bacon" value="bacon"> Bacon
+	</section>
+
+	<section id="cheese-chooser">
+		<h2>Cheese</h2>
+		<input type="radio" name="american" id="american" value="american"> American
+		<input type="radio" name="cheddar" id="cheddar" value="cheddar"> Cheddar
+		<input type="radio" name="Swiss" id="Swiss" value="swiss"> Swiss
+		<input type="radio" name="Havarti" id="Havarti" value="havarti"> Havarti
+		<input type="radio" name="Provolone" id="Provolone" value="provolone"> Provolone
+	</section>
+
+	<section id="cond-chooser">
+		<h2>Condiments</h2>
+		<input type="radio" id="sriracha" name="sriracha" value="sriracha"> Sriracha
+		<input type="radio" id="y-mustard" name="y-mustard" value="yellowMustard"> Yellow Mustard
+		<input type="radio" id="h-mustard" name="h-mustard" value="honeyMustard"> Honey Mustard
+		<input type="radio" id="mayo" name="mayo" value="mayo"> Mayonnaise
+		<input type="radio" id="oilvin" name="oilvin" value="oilVinegar"> Oil and Vinegar
+	</section>
+
+	<section id="veg-chooser">
+		<h2>Vegetables</h2>
+		<input type="radio" name="spinach" id="spinach" value="spinach"> Spinach
+		<input type="radio" name="olives" id="olives" value="olives"> Olives
+		<input type="radio" name="tomato" id="tomato" value="tomato"> Tomato
+		<input type="radio" name="pickles" id="pickles" value="pickles"> Pickles
+		<input type="radio" name="avocado" id="avocado" value="avocado"> Avocado
+	</section>
+	<br>
+	<br>
+	<section id="output"></section>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="javascripts/SandwichMaker.js"></script>
+	<script type="text/javascript" src="javascripts/meat.js"></script>
+	<script type="text/javascript" src="javascripts/cheese.js"></script>
+	<script type="text/javascript" src="javascripts/condiments.js"></script>
+	<script type="text/javascript" src="javascripts/veggies.js"></script>
+	<script type="text/javascript" src="javascripts/bread.js"></script>
+	<script type="text/javascript" src="javascripts/DOMHandler.js"></script>
+</body>
+</html>
